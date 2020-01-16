@@ -27,3 +27,14 @@ public class GetPostSteps {
     public void iShouldSeeTheAuthorNameAs(String arg0) throws Throwable {
     }
 }
+
+/*
+public void test_number(){
+    given()
+        .contentType(ContentType.JSON)
+    .when()
+        .get("URL")
+    .then().
+        .body("name", is("name_value"));
+}
+ */
